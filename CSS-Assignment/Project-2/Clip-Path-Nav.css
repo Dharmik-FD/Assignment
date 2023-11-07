@@ -1,0 +1,52 @@
+
+
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+
+
+nav{ display: flex; justify-content: center;
+justify-content: space-around; padding: 20px;}
+
+.menu ul{ display: flex;}
+
+.menu ul li a{ font-size: 25px;
+color: aliceblue; margin-right: 20px;}
+
+.logo{ border: 3px solid aliceblue; 
+    width: 100px; letter-spacing: 5px;
+font-size: 26px; color: aliceblue;}
+
+.logo span{ background-color: aliceblue; color: crimson;
+    font-size: 27px; font-weight: 600;
+}
+
+.home a{ color: crimson; text-decoration: underline crimson;}
+
+header{ width: 99%; justify-content: center;
+    height: 1200px;
+    clip-path: polygon(0 0, 100% 0, 100% 41%, 49% 59%, 0 41%);
+
+    background: url(../Project-2/image/baloon\ sky.jpg) no-repeat center center/cover;
+}
+
+.text-1,.text-2{ text-align: center; padding: 50px; color: aliceblue;}
+
+.text-1 p{ padding: 30px;}
+
+.text-2 p{ padding: 0px 100px; margin: 0px 100px;}
+
+button{ margin-top: 50px; padding: 10px 30px;}
+
+.b-1{ color:aliceblue; background-color: crimson;}
+
+.text-1 h1{font-size: 50px; letter-spacing: 5px;}
+
+.text-1{ margin-top: 70px;}
+
+.p{ text-align: center; color: aliceblue;}
+
+.p span{ color: crimson;}
