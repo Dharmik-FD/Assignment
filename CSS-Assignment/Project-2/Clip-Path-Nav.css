@@ -7,6 +7,9 @@ text-decoration: none;
 list-style: none;
 }
 
+header{ width: 99%;
+}
+
 
 nav{ display: flex; justify-content: center;
 justify-content: space-around; padding: 20px;}
@@ -26,11 +29,11 @@ font-size: 26px; color: aliceblue;}
 
 .home a{ color: crimson; text-decoration: underline crimson;}
 
-header{ width: 99%; justify-content: center;
-    height: 1200px;
+.wrapper{ width: 99%; justify-content: center;
+    height:1200px; margin: 20px;
     clip-path: polygon(0 0, 100% 0, 100% 41%, 49% 59%, 0 41%);
 
-    background: url(../Project-2/image/baloon\ sky.jpg) no-repeat center center/cover;
+    background: url(../Project-2/image/background.jpeg) no-repeat center center/cover;
 }
 
 .text-1,.text-2{ text-align: center; padding: 50px; color: aliceblue;}
@@ -50,3 +53,27 @@ button{ margin-top: 50px; padding: 10px 30px;}
 .p{ text-align: center; color: aliceblue;}
 
 .p span{ color: crimson;}
+
+
+
+
+.text-2 img{ width:50px; height: 50px; 
+    border-radius: 50%;
+    position: relative;
+     
+    right: 190px;
+
+    bottom: -130px;
+    
+}
+
+.all-card{ display: flex; width: 99%; justify-content: center;
+justify-content:space-evenly; padding: 100px;}
+
+.card-1{ width: 20%; text-align: center; color: gray;}
+
+.card-1 img{ padding: 20px;}
+
+.card-1 h3{ padding: 20px 0px;}
+
+.t-1{ color: crimson;}
