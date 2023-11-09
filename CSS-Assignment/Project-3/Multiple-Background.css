@@ -1,0 +1,43 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box; }
+
+
+.container{ width: 99%;}
+
+
+.row{ display: flex;}
+
+.col-60{ width: 59%; background-color:black;}
+
+.col-40{ width: 40%; position: relative;
+background: url(../Project-3/image/col-40-background.jpeg)no-repeat center center/cover;}
+
+.h-1,p,h3{ text-align: right;  }
+
+.h-1,h3{ padding: 40px 70px 0px 0px; }
+
+p{ padding:0px 70px 0px 100px;
+margin-left: 100px; line-height: 1.9; color: gray;}
+
+h1{ color: aliceblue;}
+
+span{ color: crimson; margin-left: 30px;}
+
+h3{ color: crimson;}
+
+.col-40 img{ border-radius: 50%;}
+
+.img-1{ position: absolute;
+top: 130px;
+left:-30px;}
+
+
+.img-2{ position: absolute;
+top:250px;
+left: -30px;}
+
+
+.img-3{ position: absolute;
+top: 370px;
+left: -30px;}
